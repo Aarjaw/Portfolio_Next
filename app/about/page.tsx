@@ -111,7 +111,7 @@ const Page = () => {
                         <FaFacebookF size={22} />
                     </a>
                     <a
-                        href="https://linkedin.com/in/aarjaw-adhikari-3ba481289w"
+                        href="https://linkedin.com/in/aarjaw-adhikari-3ba481289"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-10 h-10 flex items-center justify-center rounded-full bg-[#2AD87E] text-black hover:bg-[#1ea965] transition"
