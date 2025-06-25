@@ -1,16 +1,16 @@
 import React from 'react'
 
 const skills = [
-    { name: 'React', icon: '/file.svg' },
+    { name: 'React', icon: '/react.svg' },
     { name: 'Next.js', icon: '/next.svg' },
-    { name: 'Django', icon: '/globe.svg' },
-    { name: 'Git', icon: '/window.svg' },
-    { name: 'GitHub', icon: '/vercel.svg' },
+    { name: 'Django', icon: '/django.svg' },
+    { name: 'Git', icon: '/git.svg' },
+    { name: 'GitHub', icon: '/github.svg' },
 ]
 
 const SkillsPage = () => (
     <div className="min-h-screen flex flex-col items-center px-6 py-20">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-8">My Skills</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold mb-8">Skills</h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 w-full max-w-4xl">
             {skills.map((skill) => (
                 <div

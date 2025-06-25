@@ -4,8 +4,8 @@ import Intro from '@/app/introduction/page';
 import AboutMe from '@/app/about/page';
 import MySkill from '@/app/skills/page';
 import MyProject from '@/app/projects/page';
-import Thanks from '@/app/thanks/page';
 import Contact from '@/app/contact/page';
+import Footer from '@/components/footer/footer';
 
 const page = () => {
     return (
@@ -16,7 +16,7 @@ const page = () => {
             <MySkill />
             <MyProject />
             <Contact />
-            < Thanks />
+            <Footer />
         </>
     )
 }

@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
+import { FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 
 const TypedParagraph = ({
     text,
@@ -76,13 +77,13 @@ const Page = () => {
 
     return (
         <div className="min-h-screen w-full flex flex-col px-4 sm:px-10 py-16 sm:py-20 gap-6">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-center">About Me</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-center">About</h1>
 
             <div ref={paragraphRef}>
                 <TypedParagraph text={paragraphText} triggerTyping={startTyping} />
             </div>
 
-            <div className="mt-4">
+            <div className="mt-4 flex items-center gap-4">
                 <a
                     href="/Aarjaw-CV.pdf"
                     download="Aarjaw-Adhikari-CV.pdf"
@@ -90,9 +91,38 @@ const Page = () => {
                 >
                     Download CV
                 </a>
+                <div className="flex gap-3">
+                    <a
+                        href="https://instagram.com/aarjawadhikari"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 flex items-center justify-center rounded-full bg-[#2AD87E] text-black hover:bg-[#1ea965] transition"
+                        aria-label="Instagram"
+                    >
+                        <FaInstagram size={22} />
+                    </a>
+                    <a
+                        href="https://facebook.com/aarjaw.adhikari.2025"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 flex items-center justify-center rounded-full bg-[#2AD87E] text-black hover:bg-[#1ea965] transition"
+                        aria-label="Facebook"
+                    >
+                        <FaFacebookF size={22} />
+                    </a>
+                    <a
+                        href="https://linkedin.com/in/aarjaw-adhikari-3ba481289w"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 flex items-center justify-center rounded-full bg-[#2AD87E] text-black hover:bg-[#1ea965] transition"
+                        aria-label="LinkedIn"
+                    >
+                        <FaLinkedinIn size={22} />
+                    </a>
+                </div>
             </div>
         </div>
     );
-};
+}
 
 export default Page;
