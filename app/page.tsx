@@ -5,6 +5,7 @@ import AboutMe from '@/app/about/page';
 import MySkill from '@/app/skills/page';
 import MyProject from '@/app/projects/page';
 import Thanks from '@/app/thanks/page';
+import Contact from '@/app/contact/page';
 
 const page = () => {
     return (
@@ -14,6 +15,7 @@ const page = () => {
             <AboutMe />
             <MySkill />
             <MyProject />
+            <Contact />
             < Thanks />
         </>
     )

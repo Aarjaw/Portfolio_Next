@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useEffect, useRef, useState } from 'react';
 
 const TypedParagraph = ({
@@ -77,7 +76,7 @@ const Page = () => {
 
     return (
         <div className="min-h-screen w-full flex flex-col px-4 sm:px-10 py-16 sm:py-20 gap-6">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-2">About Me</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-center">About Me</h1>
 
             <div ref={paragraphRef}>
                 <TypedParagraph text={paragraphText} triggerTyping={startTyping} />
