@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const skills = [
     { name: 'React', icon: '/react.svg' },
@@ -6,6 +7,9 @@ const skills = [
     { name: 'Django', icon: '/django.svg' },
     { name: 'Git', icon: '/git.svg' },
     { name: 'GitHub', icon: '/github.svg' },
+    { name: 'JavaScript', icon: '/javascript.svg' },
+    { name: 'Python', icon: '/python.svg' },
+
 ]
 
 const SkillsPage = () => (
@@ -17,7 +21,8 @@ const SkillsPage = () => (
                     key={skill.name}
                     className="flex flex-col items-center bg-[#2AD87E] rounded-xl shadow-md p-6 hover:scale-105 transition-transform"
                 >
-                    <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-4" />
+                    {/* <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-4" /> */}
+                    <Image src={skill.icon} alt={skill.name} width={12} height={12} className="w-12 h-12 mb-4"></Image>
                     <span className="text-lg font-semibold">{skill.name}</span>
                 </div>
             ))}
