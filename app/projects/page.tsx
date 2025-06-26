@@ -28,7 +28,7 @@ const ProjectsPage = () => (
             {projects.map((project) => (
                 <div
                     key={project.title}
-                    className="bg-amber-100 rounded-xl shadow-md p-6 flex flex-col justify-between hover:scale-105 transition-transform"
+                    className="bg-[#DCDAD4] rounded-xl shadow-md p-6 flex flex-col justify-between hover:scale-105 transition-transform"
                 >
                     <div>
                         <h2 className="text-xl text-[#2AD87E] font-semibold mb-2">{project.title}</h2>

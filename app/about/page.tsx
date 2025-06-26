@@ -52,7 +52,7 @@ const Page = () => {
     const paragraphRef = useRef<HTMLDivElement | null>(null);
     const [startTyping, setStartTyping] = useState(false);
 
-    const paragraphText = `Enthusiastic and dedicated student actively pursuing expertise in Computer Vision. Currently undertaking a degree in BSC.IT-Cloud Engineering. Adept at applying theoretical knowledge to practical challenges in image processing, pattern recognition, and machine learning. Proven ability to work collaboratively in multidisciplinary teams. Eager to contribute to innovative projects and leverage emerging technologies in the realm of Computer Vision.`;
+    const paragraphText = `Enthusiastic and dedicated student with a strong focus on Computer Vision, currently pursuing a BSc in IT with a specialization in Cloud Engineering. Skilled in applying theoretical concepts to real-world challenges in image processing, pattern recognition, and machine learning. Experienced in collaborating within multidisciplinary teams and contributing effectively. Passionate about leveraging emerging technologies and eager to contribute to innovative projects in the field of Computer Vision.`;
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -76,7 +76,7 @@ const Page = () => {
     }, []);
 
     return (
-        <div className="min-h-screen w-full flex flex-col px-4 sm:px-10 py-16 sm:py-20 gap-6">
+        <div className="min-h-screen w-full flex flex-col md:px-16 px-10 py-16 sm:py-20 gap-6">
             <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-center">About</h1>
 
             <div ref={paragraphRef}>
@@ -87,7 +87,7 @@ const Page = () => {
                 <a
                     href="/Aarjaw-CV.pdf"
                     download="Aarjaw-Adhikari-CV.pdf"
-                    className="text-lg sm:text-2xl border-2 border-[#2AD87E] w-fit p-2 cursor-pointer hover:text-black hover:bg-[#2AD87E] transition-all duration-300"
+                    className="text-lg md:text-2xl border-2 border-[#2AD87E] w-fit p-2 cursor-pointer hover:text-black hover:bg-[#2AD87E] transition-all duration-300"
                 >
                     Download CV
                 </a>
