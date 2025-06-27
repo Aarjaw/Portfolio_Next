@@ -4,7 +4,7 @@ const projects = [
     {
         title: 'Portfolio Website',
         description: 'A personal portfolio built with Next.js and Tailwind CSS to showcase my skills and projects.',
-        link: 'https://your-portfolio-link.com',
+        link: '/',
         tech: ['Next.js', 'React', 'Tailwind CSS'],
     },
     {
@@ -16,8 +16,8 @@ const projects = [
     {
         title: 'GitHub Finder',
         description: 'A React app to search GitHub users and view their profiles and repositories.',
-        link: 'https://your-github-finder-link.com',
-        tech: ['React', 'GitHub API', 'CSS'],
+        link: '',
+        tech: ['Next', 'GitHub API', 'Tailwind'],
     },
 ];
 

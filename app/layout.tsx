@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Orbitron, Rajdhani, Share_Tech_Mono } from 'next/font/google'
+import { Orbitron, Rajdhani, Share_Tech_Mono } from 'next/font/google';
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -18,8 +18,12 @@ const rajdhani = Rajdhani({ subsets: ['latin'], weight: '400', variable: '--font
 const shareTechMono = Share_Tech_Mono({ subsets: ['latin'], weight: '400', variable: '--font-sharetech' })
 
 export const metadata: Metadata = {
-  title: "Aarjaw Adhikari | Portfolio",
-  description: "Aarjaw Adhikari's personal portfolio showcasing skills, projects, and contact information.",
+    title: "Aarjaw Adhikari | Portfolio",
+    description: "Portfolio of Aarjaw Adhikari – a full stack web developer skilled in React, Next.js, Django, and more",
+    keywords: "Aarjaw Adhikari, web developer, portfolio, full stack, React, Next.js, Django",
+    authors: [{ name: "Aarjaw Adhikari", url: "https://aarjawadhikari.com" }],
+    creator: "Aarjaw Adhikari",
+    robots: { index: true, follow: true },
 };
 
 export default function RootLayout({
