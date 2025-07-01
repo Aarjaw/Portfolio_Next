@@ -4,14 +4,14 @@ const projects = [
     {
         title: 'Portfolio Website',
         description: 'A personal portfolio built with Next.js and Tailwind CSS to showcase my skills and projects.',
-        link: '/',
+        link: 'https://aarjaw-portfolio.vercel.app',
         tech: ['Next.js', 'React', 'Tailwind CSS'],
     },
     {
-        title: 'Django Blog',
-        description: 'A full-featured blog application built with Django, supporting authentication and CRUD operations.',
-        link: 'https://your-django-blog-link.com',
-        tech: ['Django', 'Python', 'Bootstrap'],
+        title: 'iCoder',
+        description: 'A blog application built with Html, Bootstrap, and Javascript, to show my knowledge in libraries and frameworks.',
+        link: 'https://aarjaw.github.io/project/',
+        tech: ['Html', 'Javascript', 'Bootstrap'],
     },
     {
         title: 'GitHub Finder',
