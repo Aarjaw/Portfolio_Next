@@ -11,7 +11,7 @@ const Footer = () => {
     };
 
     return (
-        <footer className="w-full bg-[#1a2b3a] py-8 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0 relative">
+        <footer className="w-full  py-8 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0 relative">
             <span className="text-center w-full text-gray-300 text-base md:text-xl font-medium">
                 Copyright © 2025 | Aarjaw Adhikari | All Rights Reserved.
             </span>

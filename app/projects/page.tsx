@@ -10,7 +10,7 @@ const projects = [
     {
         title: 'iCoder',
         description: 'A blog application built with Html, Bootstrap, and Javascript, to show my knowledge in libraries and frameworks.',
-        link: 'https://aarjaw.github.io/project/',
+        link: 'https://aarjaw.github.io/iCoder/',
         tech: ['Html', 'Javascript', 'Bootstrap'],
     },
     {
